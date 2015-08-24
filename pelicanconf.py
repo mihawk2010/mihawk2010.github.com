@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Ben'
-SITENAME = u"取个名字好难"
+SITENAME = u"看不见AC的世界"
 SITEURL = ''
 THEME = 'bootstrap2-dark'
 #THEME = '../pelican-bootstrap3'
@@ -24,11 +24,11 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('微博', 'http://weibo.com/mihawk2010'),
+          ('知乎', 'http://www.zhihu.com/people/zhang-benxuan'),)
 
 DEFAULT_PAGINATION = 10
 

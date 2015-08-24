@@ -7,7 +7,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
-TARGETDIR = /home/ben/github/mihawk2010.github.io
+TARGETDIR = $(BASEDIR)/../mihawk2010.github.io
 
 FTP_HOST=localhost
 FTP_USER=anonymous
